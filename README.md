@@ -10,8 +10,8 @@ threekingdom_militarycommander_search_ddl
 * 「D:\Programs\MSSQL_2012」は環境に合わせて修正してください
 
 ## create tables
-`sqlcmd -E -S localhost\sqlexpress -d threekingdom -i "01_tables\01_lookup\L0010.sql"`
-`sqlcmd -E -S localhost\sqlexpress -d threekingdom -i "01_tables\02_master\M0010.sql"`
+* `sqlcmd -E -S localhost\sqlexpress -d threekingdom -i "01_tables\01_lookup\L0010.sql"`
+* `sqlcmd -E -S localhost\sqlexpress -d threekingdom -i "01_tables\02_master\M0010.sql"`
 
 ## insert initial data
 * initialdata.sqlの中身をSSMS等で流してください
